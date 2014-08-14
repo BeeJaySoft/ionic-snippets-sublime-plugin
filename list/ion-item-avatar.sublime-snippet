@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<a class="item item-avatar" href="${1:#}">
+      <img src="${2:venkman}.jpg">
+      <h2>${3:Venkman}</h2>
+      <p>${4:Back off, man. I'm a scientist.}</p>
+    </a>
+    ...
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-item-avatar</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

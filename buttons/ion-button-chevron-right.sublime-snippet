@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<a class="button icon-right ion-chevron-right button-calm">${1:Learn More}</a>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-button-chevron-right</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

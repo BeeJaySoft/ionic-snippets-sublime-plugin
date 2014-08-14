@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<a class="button button-outline icon-right ion-navicon button-balanced">${1:Reorder}</a>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-button-navicon</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

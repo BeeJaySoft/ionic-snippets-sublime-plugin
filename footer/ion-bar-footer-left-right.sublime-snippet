@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<div class="bar bar-footer">
+  <button class="button button-clear">${1:Left}</button>
+  <div class="title">${1:Title}</div>
+  <button class="button button-clear">${1:Right}</button>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-bar-footer-left-right</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+		
+		<ul class="list">
+
+  <li class="item item-toggle">
+     ${1:HTML5}
+     <label class="toggle toggle-assertive">
+       <input type="checkbox">
+       <div class="track">
+         <div class="handle"></div>
+       </div>
+     </label>
+  </li>
+
+  
+</ul>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-item-toggle</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

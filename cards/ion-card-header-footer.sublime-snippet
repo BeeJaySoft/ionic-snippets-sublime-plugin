@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+<div class="card">
+  <div class="item item-divider">
+    ${1:I'm a Header in a Card!}
+  </div>
+  <div class="item item-text-wrap">
+    ${2:This is a basic Card with some text.}
+  </div>
+  <div class="item item-divider">
+    ${3:I'm a Footer in a Card!}
+  </div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-card-header-footer</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

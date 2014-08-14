@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+
+<div class="range">
+  <i class="icon ion-volume-low"></i>
+  <input type="range" name="${1:volume}">
+  <i class="icon ion-volume-high"></i>
+</div>
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>ion-range</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

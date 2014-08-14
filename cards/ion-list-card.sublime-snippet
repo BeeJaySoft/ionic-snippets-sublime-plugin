@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[
+<div class="list card">
+
+  <a href="${1:#}" class="item item-icon-left">
+    <i class="icon ion-home"></i>
+    ${2:Enter home address}
+  </a>
+
+  <a href="${3:#}" class="item item-icon-left">
+    <i class="icon ion-ios7-telephone"></i>
+    ${4:Enter phone number}
+  </a>
+
+  <a href="${5:#}" class="item item-icon-left">
+    <i class="icon ion-wifi"></i>
+    ${6:Enter wireless password}
+  </a>
+
+  <a href="${7:#}" class="item item-icon-left">
+    <i class="icon ion-card"></i>
+    ${8:Enter card information}
+  </a>
+
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-list-card</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

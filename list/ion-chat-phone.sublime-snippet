@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<a class="item item-icon-left item-icon-right" href="${1:#}">
+    <i class="icon ion-chatbubble-working"></i>
+    ${2:Call Ma}
+    <i class="icon ion-ios7-telephone-outline"></i>
+  </a>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-chat-phone</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
