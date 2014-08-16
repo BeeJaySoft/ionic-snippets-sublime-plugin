@@ -42,6 +42,9 @@ There are 3 methods for installing this plugin.
 3. Download the .zip file and unzip it into your Sublime Text 2/3 packages directory.
 **Note:** You can find your Sublime Text 2/3 packages directory by going to Preferences > Browse Packages.
 
+#<!-- CSS Snippets -->
+ionic css snippets are prefixed with ion-
+
 ### Header
 
 | Component                      | Snippet code                   |
@@ -73,6 +76,7 @@ There are 3 methods for installing this plugin.
 | Component                      | Snippet code                   |
 |------------------------------- | :-----------------------------:|
 | button                         | ion-button                     |
+| button                         | ion-button-block               |
 | button-light                   | ion-button-light               |
 | button-stable                  | ion-button-stable              |
 | button-positive                | ion-button-positive            |
@@ -110,7 +114,10 @@ There are 3 methods for installing this plugin.
 | list-icons-chatBubble          | ion-list-icon-chatbubble       |
 | list-icons-mic                 | ion-list-icon-mic              |
 | list-icons-person              | ion-list-icon-person           |
-| list-icons-chatBubble          | ion-list-icon-chatbubble       |
+| list-button                    | ion-list-button-positive       |
+| list-item-avatar               | ion-list-item-avatar           |
+| list-item-thumbnail            | ion-list-item-thumbnail        |
+| list-inset                     | ion-item-inset                 |
 
 
 ### Cards
@@ -201,6 +208,5 @@ There are 3 methods for installing this plugin.
 
 ### License
 
-Ionic Snippets - Sublime Plugin is open-sourced software licensed under the [This theme is licensed under the General Public 
-License (GPL)](http://www.gnu.org/copyleft/gpl.html).
+Ionic Snippets - Sublime Plugin is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 z
