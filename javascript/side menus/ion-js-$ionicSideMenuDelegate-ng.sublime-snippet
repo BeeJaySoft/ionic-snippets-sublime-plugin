@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+function ${1:Main}Ctrl($scope, $ionicSideMenuDelegate) {
+  $scope.${2:toggleLeftSideMenu} = function() {
+    $ionicSideMenuDelegate.toggleLeft();
+  };
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-js-$ionicSideMenuDelegate-ng</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

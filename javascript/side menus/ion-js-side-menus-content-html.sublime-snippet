@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<ion-side-menu-content
+  edge-drag-threshold="true"
+  drag-content="true">
+</ion-side-menu-content>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-js-side-menus-content-html</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

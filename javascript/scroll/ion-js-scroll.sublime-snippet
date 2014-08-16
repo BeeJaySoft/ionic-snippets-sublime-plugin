@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<ion-scroll zooming="${1:true}" direction="${2:xy}" style="width:${3: 500}px; height:${4: 500}px">
+  <div style="width: ${5:5000}px; height: ${6:5000}px; background: url('${6:https://upload.wikimedia.org/wikipedia/commons/a/ad/Europe_geological_map-en.jpg}') repeat"></div>
+ </ion-scroll>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-js-scroll</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

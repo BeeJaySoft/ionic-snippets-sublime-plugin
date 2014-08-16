@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<ion-content>
+      ${1:Some super content here!}
+</ion-content>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-js-content</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

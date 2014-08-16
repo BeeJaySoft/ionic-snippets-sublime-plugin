@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<button on-drag="${1:onDrag}()" class="button">${2:Test}</button>
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-js-on-drag</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

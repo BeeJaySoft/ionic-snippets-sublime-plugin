@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<body ng-controller="${1:My}Ctrl">
+  <ion-nav-bar>
+    <button ng-click="${2:setNavTitle}('${3:banana}')">
+      ${4:Set title to banana!}
+    </button>
+  </ion-nav-bar>
+</body>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-js-$ionicNavBarDelegate-html</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

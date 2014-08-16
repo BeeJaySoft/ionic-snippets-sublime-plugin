@@ -1,13 +1,12 @@
 <snippet>
 	<content><![CDATA[
- <a class="item item-icon-left" href="${1:#}">
-    <i class="icon ion-person-stalker"></i>
-    ${2:Friends}
-    <span class="badge badge-assertive">${3:0}</span>
-  </a>
+<ion-nav-bar>
+	${1:}
+</ion-nav-bar>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>ion-person-badge</tabTrigger>
+	<tabTrigger>ion-js-nav-bar</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
+

@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+function ${1:My}Ctrl(\$scope, \$ionicBackdrop, \$timeout) {
+  ${2://Show a backdrop for one second}
+  \$scope.action = function() {
+    \$ionicBackdrop.retain();
+    \$timeout(function() {
+      \$ionicBackdrop.release();
+    }, ${3:1000});
+  };
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-js-$ionicBackdrop-ng</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

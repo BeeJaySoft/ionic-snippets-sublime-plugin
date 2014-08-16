@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[
+  <content><![CDATA[
 <div class="list">
   <label class="item item-input">
     <input type="text" placeholder="${1:First Name}">
@@ -8,13 +8,13 @@
     <input type="text" placeholder="${2:Last Name}">
   </label>
   <button class="button button-positive">
-  submit
+  ${3:submit}
 </button>
 
   </div>
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>ion-form</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>ion-form</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
 </snippet>
