@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<ion-content ng-controller="${1:My}Ctrl">
+  <button class="button" ng-click="${2:showDeleteButtons}()"></button>
+  <ion-list>
+    <ion-item ng-repeat="${3:i} in ${4:items}">>
+      ${5:Hello,} {{${6:i}}}
+      <ion-delete-button class="ion-minus-circled"></ion-delete-button>
+    </ion-item>
+  </ion-list>
+</ion-content>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-js-list-$ionicListDelegate-html</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

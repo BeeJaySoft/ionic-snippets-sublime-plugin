@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+<body ng-controller="${1:My}Ctrl">
+  <ion-slide-box>
+    <ion-slide>
+      <div class="box blue">
+        <button ng-click="${2:nextSlide}()">${3:Next slide!}</button>
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="box red">
+        ${4:Slide 2!}
+      </div>
+    </ion-slide>
+  </ion-slide-box>
+</body>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-js-$ionicSlideBoxDelegate-html</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<ion-radio ng-model="${1:choice}" ng-value="'${2:A}'">${3:Choose} ${2:A}</ion-radio>
+<ion-radio ng-model="${1:choice}" ng-value="'${4:B}'">${5:Choose} ${4:B}</ion-radio>
+<ion-radio ng-model="${1:choice}" ng-value="'${6:A}'">${7:Choose} ${6:A}</ion-radio>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-js-form-radio</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

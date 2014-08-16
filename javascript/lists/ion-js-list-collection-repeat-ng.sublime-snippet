@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+function ${1:Content}Ctrl($scope) {
+  $scope.${2:items} = [];
+  for (var i = 0; i < 1000; i++) {
+    $scope.${2:items}.push('Item ' + i);
+  }
+
+  $scope.getItemHeight = function(${4:item}, ${5:index}) {
+    ${6://Make evenly indexed items be 10px taller, for the sake of example}
+    return (${5:index} % 2) === 0 ? 50 : 60;
+  };
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-js-list-collection-repeat-ng</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

@@ -1,0 +1,34 @@
+<snippet>
+	<content><![CDATA[
+angular.module('${1:testApp}', ['ionic'])
+.controller('${2:My}Ctrl', function($scope, $ionicPopover) {
+  $ionicPopover.fromTemplateUrl('${3:my-popover.html}', {
+    scope: $scope,
+  }).then(function(${4:popover}) {
+    $scope.${4:popover} = ${4:popover};
+  });
+  $scope.${5:open}Popover = function($event) {
+    $scope.${4:popover}.show($event);
+  };
+  $scope.${6:close}Popover = function() {
+    $scope.${4:popover}.hide();
+  };
+  ${7://Cleanup the popover when we're done with it!}
+  $scope.$on('$destroy', function() {
+    $scope.${4:popover}.remove();
+  });
+  ${8:// Execute action on hide popover}
+  $scope.$on('${4:popover}.hidden', function() {
+    ${9:// Execute action}
+  });
+  ${10:// Execute action on remove popover}
+  $scope.$on('${4:popover}.removed', function() {
+    ${11:// Execute action}
+${4:popover}});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-js-$ionicPopover-ng</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

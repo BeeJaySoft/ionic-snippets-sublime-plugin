@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+${1: // An alert dialog}
+ $scope.${2:showAlert} = function() {
+   var alertPopup = $ionicPopup.alert({
+     title: '${3:Don\'t eat that!}',
+     template: '${4:It might taste good}'
+   });
+   alertPopup.then(function(res) {
+     console.log('${5:Thank you for not eating my delicious ice cream cone}');
+   });
+ };
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-js-$ionicPopup-alert-ng</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

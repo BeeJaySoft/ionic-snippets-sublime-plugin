@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+ ${1:// A confirm dialog}
+ $scope.${2:showConfirm} = function() {
+   var confirmPopup = $ionicPopup.confirm({
+     title: '${3:Consume Ice Cream}',
+     template: '${4:Are you sure you want to eat this ice cream?}'
+   });
+   confirmPopup.then(function(res) {
+     if(res) {
+       console.log('${5:You are sure}');
+     } else {
+       console.log('${6:You are not sure}');
+     }
+   });
+ };
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-js-$ionicPopup-confirm-ng</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

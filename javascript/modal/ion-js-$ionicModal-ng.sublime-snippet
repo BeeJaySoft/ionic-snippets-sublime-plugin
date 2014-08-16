@@ -1,0 +1,35 @@
+<snippet>
+	<content><![CDATA[
+angular.module('${1:testApp}', ['ionic'])
+.controller('${2:My}Ctrl', function($scope, $ionicModal) {
+    scope: $scope,
+    animation: 'slide-in-up'
+  }).then(function(${4:modal}) {
+    $scope.${4:modal} = ${4:modal};
+  });
+  $scope.${5:open}Modal = function() {
+    $scope.${4:modal}.show();
+  };
+  $scope.${6:close}Modal = function() {
+    $scope.${4:modal}.hide();
+  };
+  ${7://Cleanup the modal when we're done with it!}
+  $scope.$on('$destroy', function() {
+    $scope.${4:modal}.remove();
+  });
+  ${8:// Execute action on hide modal}
+  $scope.$on('${4:modal}.hidden', function() {
+    ${9:// Execute action}
+  });
+  ${10:// Execute action on remove modal}
+  $scope.$on('${4:modal}.removed', function() {
+    ${11:// Execute action}
+  });
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-js-$ionicModal-ng</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

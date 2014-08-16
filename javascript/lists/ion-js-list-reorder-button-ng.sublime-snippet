@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+function ${1:My}Ctrl($scope) {
+  $scope.${2:items} = [${3:1, 2, 3, 4}];
+  $scope.${4:moveItem} = function(item, fromIndex, toIndex) {
+    ${5://Move the item in the array}
+    $scope.${2:items}.splice(fromIndex, 1);
+    $scope.${2:items}.splice(toIndex, 0, item);
+  };
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-js-list-reorder-button-ng</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+
