@@ -201,5 +201,6 @@ There are 3 methods for installing this plugin.
 
 ### License
 
-Ionic Snippets - Sublime Plugin is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+Ionic Snippets - Sublime Plugin is open-sourced software licensed under the [This theme is licensed under the General Public 
+License (GPL)](http://www.gnu.org/copyleft/gpl.html).
 z
