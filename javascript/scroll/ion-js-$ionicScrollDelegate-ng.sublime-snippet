@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+function ${1:Main}Ctrl($scope, $ionicScrollDelegate) {
+  $scope.${2:scrollTop} = function() {
+    $ionicScrollDelegate.scrollTop();
+  };
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-js-$ionicScrollDelegate-ng</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

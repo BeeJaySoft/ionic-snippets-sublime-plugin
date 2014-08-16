@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<a menu-close href="#/${1:home}" class="item">${2:Home}</a>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-js-menu-close-html</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

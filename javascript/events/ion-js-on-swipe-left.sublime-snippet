@@ -1,15 +1,12 @@
 <snippet>
 	<content><![CDATA[
-<a class="item item-thumbnail-left" href="${1:#}">
-      <img src="${2:cover}.jpg">
-      <h2>${3:Pretty Hate Machine}</h2>
-      <p>${4:Nine Inch Nails}</p>
-    </a>
+<button on-swipe-left="${1:onSwipeLeft}()" class="button">${2:Test}</button>
 
-    ...
+
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>ion-item-thumbnail</tabTrigger>
+	<tabTrigger>ion-js-on-swipe-left</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
+

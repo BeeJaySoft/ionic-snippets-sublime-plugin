@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+angular.module('${1:LoadingApp}', ['ionic'])
+.controller('${2:Loading}Ctrl', function(\$scope, \$ionicLoading) {
+  \$scope.show = function() {
+    \$ionicLoading.show({
+      template: '${3:Loading...}'
+    });
+  };
+  \$scope.hide = function(){
+    \$ionicLoading.hide();
+  };
+});
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-js-$ionicLoading-ng</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

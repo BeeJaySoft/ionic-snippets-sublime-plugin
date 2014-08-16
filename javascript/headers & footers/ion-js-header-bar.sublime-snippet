@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<ion-header-bar align-title="left" class="bar-positive">
+  <div class="buttons">
+    <button class="button" ng-click="${1:doSomething}()">${2:Left Button}</button>
+  </div>
+  <h1 class="title">${3:Title!}</h1>
+  <div class="buttons">
+    <button class="button">${4:Right Button}</button>
+  </div>
+</ion-header-bar>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-js-header-bar</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+function ${1:My}Ctrl(\$scope, \$ionicTabsDelegate) {
+  \$scope.${2:selectTabWithIndex} = function(${3:index}) {
+    \$ionicTabsDelegate.select(${3:index});
+  }
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-js-$ionictabsdelegate-ng</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

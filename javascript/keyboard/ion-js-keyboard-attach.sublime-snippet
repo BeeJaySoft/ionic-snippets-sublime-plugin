@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<ion-footer-bar align-title="left" keyboard-attach class="bar-assertive">
+   <h1 class="title">${1:Title!}</h1>
+ </ion-footer-bar>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-js-keyboard-attach</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+

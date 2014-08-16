@@ -1,15 +1,12 @@
 <snippet>
 	<content><![CDATA[
-<a class="item item-icon-left" href="${1:#}">
-    <i class="icon ion-mic-a"></i>
-    ${2:Record album}
-    <span class="item-note">
-      ${3:Grammy}
-    </span>
-  </a>
+<button on-drag-right="${1:onDragRight}()" class="button">${2:Test}</button>
+
+
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>ion-mic-note</tabTrigger>
+	<tabTrigger>ion-js-on-drag-right</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
+

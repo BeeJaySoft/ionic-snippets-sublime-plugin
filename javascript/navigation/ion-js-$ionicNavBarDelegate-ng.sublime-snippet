@@ -1,13 +1,14 @@
 <snippet>
 	<content><![CDATA[
-<ul class="list">
-    <li class="item">
-      ${1:...}
-    </li>
-</ul>
+function ${1:My}Ctrl($scope, $ionicNavBarDelegate) {
+  $scope.${2:setNavTitle} = function(${3:title}) {
+    $ionicNavBarDelegate.setTitle(${3:title});
+  }
+}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>ion-list-ul</tabTrigger>
+	<tabTrigger>ion-js-$ionicNavBarDelegate-ng</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
+

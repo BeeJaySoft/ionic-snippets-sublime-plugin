@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+<body ng-controller="${1:Main}Ctrl">
+  <ion-side-menus>
+    <ion-side-menu-content>
+      ${2:Content!}
+      <button ng-click="${3:toggleLeftSideMenu}()">
+        ${4:Toggle Left Side Menu}
+      </button>
+    </ion-side-menu-content>
+    <ion-side-menu side="left">
+      ${5:Left Menu!}
+    <ion-side-menu>
+  </ion-side-menus>
+</body>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ion-js-$ionicSideMenuDelegate-html</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
+
