@@ -5,7 +5,7 @@ A sublime plugin complete with ionic framework snippets
 
 Feel free to let me know what else you want added via:
 
-- Twitter [@tenthgeek](https://twitter.com/tenthgeek)
+- Twitter [@PixelDropINC](https://twitter.com/pixeldropinc)
 - [Issues](https://github.com/PixelDropInc/ionic-snippets-sublime-plugin/issues)
 
 
@@ -24,7 +24,6 @@ Feel free to let me know what else you want added via:
 - [Range](#range)
 - [Select](#select)
 - [Tabs](#tabs)
-- [Grid](#grid)
 - [Utility](#utility)
 - [License](#license)
 
@@ -76,7 +75,7 @@ ionic css snippets are prefixed with ion-
 | Component                      | Snippet code                   |
 |------------------------------- | :-----------------------------:|
 | button                         | ion-button                     |
-| button                         | ion-button-block               |
+| button-block                   | ion-button-block               |
 | button-light                   | ion-button-light               |
 | button-stable                  | ion-button-stable              |
 | button-positive                | ion-button-positive            |
@@ -190,23 +189,13 @@ ionic css snippets are prefixed with ion-
 | tabs-top-icon                  | ion-tabs-icon-top              |
 | tabs-left-icon                 | ion-tabs-icon-left             |
 
-### Grid
-
-| Component                      | Snippet code                   |
-|------------------------------- | :-----------------------------:|
-| CDN link (both CSS & JS)       | bs3-cdn                        |
-| CDN link (CSS only)            | bs3-cdn:css                    |
-| CDN link (JS only)             | bs3-cdn:js                     |
 
 ### Utility
 
 | Component                      | Snippet code                   |
 |------------------------------- | :-----------------------------:|
 | icons                          | ion-star                       |
-| CDN link (CSS only)            | bs3-cdn:css                    |
-| CDN link (JS only)             | bs3-cdn:js                     |
 
 ### License
 
-Ionic Snippets - Sublime Plugin is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
-z
+Ionic Snippets - Sublime Plugin is open-sourced software licensed under the [GNU GPL license](http://www.gnu.org/copyleft/gpl.html).
