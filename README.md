@@ -24,8 +24,6 @@ There are 3 methods for installing this plugin.
 
 ## What's included - contents
 ### CSS Snippets
-- [Installation](#installation)
-- [Installation](#installation)
 - [Header](#header)
 - [Content](#content)
 - [Footer](#footer)
