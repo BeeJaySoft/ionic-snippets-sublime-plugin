@@ -11,12 +11,14 @@ Feel free to let me know what else you want added via:
 
 ### Installation
 
-There are 2 methods for installing this plugin.
+There are 3 methods for installing this plugin.
 
-1. Clone the repository into your Sublime Text 2/3 packages directory.
+1. Search for "ionic snippets" via the "Package Control: Install Packages" menu. Note: If you don't have Sublime Package Control installed, you can find out how to install it here https://sublime.wbond.net/installation
+
+2. Clone the repository into your Sublime Text 2/3 packages directory.
 `git clone https://github.com/PixelDropInc/ionic-snippets-sublime-plugin.git
 
-2. Download the .zip file and unzip it into your Sublime Text 2/3 packages directory.
+3. Download the .zip file and unzip it into your Sublime Text 2/3 packages directory.
 **Note:** You can find your Sublime Text 2/3 packages directory by going to Preferences > Browse Packages.
 
 ## What's included - contents
