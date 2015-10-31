@@ -2,7 +2,7 @@
 	<content><![CDATA[
 <div class="item item-divider">
     ${1:Candy Bars}
-  </div>
+</div>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ion-item-divider</tabTrigger>

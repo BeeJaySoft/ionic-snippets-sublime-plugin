@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
- <a class="item item-avatar" href="${1:#}">
-      <img src="${2:venkman.jpg}">
-      <h2>${3:Venkman}</h2>
-      <p>${4:Back off, man. I'm a scientist.}</p>
-    </a>
+<a class="item item-avatar" href="${1:#}">
+  <img src="${2:venkman.jpg}">
+    <h2>${3:Venkman}</h2>
+  <p>${4:Back off, man. I'm a scientist.}</p>
+</a>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ion-list-item-avatar</tabTrigger>

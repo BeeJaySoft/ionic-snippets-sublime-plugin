@@ -6,7 +6,7 @@
     <span class="item-note">
       ${3:Grammy}
     </span>
-  </a>
+</a>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ion-list-icon-mic</tabTrigger>

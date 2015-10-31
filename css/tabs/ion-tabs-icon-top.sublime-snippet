@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-  <div class="tabs tabs-icon-top">
+<div class="tabs tabs-icon-top">
   <a class="tab-item">
     <i class="icon ion-home"></i>
     ${1:Home}

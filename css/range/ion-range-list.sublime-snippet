@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
    
-   <div class="list">
+<div class="list">
   <div class="item range range-positive">
     <i class="icon ion-ios7-sunny-outline"></i>
     <input type="range" name="${1:volume}" min="${2:0}" max="${3:100}" value="${4:33}">

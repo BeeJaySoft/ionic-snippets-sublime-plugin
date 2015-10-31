@@ -8,10 +8,9 @@
     <input type="text" placeholder="${2:Last Name}">
   </label>
   <button class="button button-positive">
-  ${3:submit}
-</button>
-
-  </div>
+    ${3:submit}
+  </button>
+</div>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ion-form</tabTrigger>

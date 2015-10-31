@@ -3,7 +3,6 @@
 <button class="button">
   <i class="icon ion-loading-c"></i> ${1:Loading...}
 </button>
-
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ion-button-loading</tabTrigger>

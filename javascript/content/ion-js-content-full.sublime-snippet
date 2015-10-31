@@ -13,7 +13,7 @@
     [on-scroll-complete="${10:}"]
     [has-bouncing="${11:}"]>
   ${12:...}
-  </ion-content>
+</ion-content>
 
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

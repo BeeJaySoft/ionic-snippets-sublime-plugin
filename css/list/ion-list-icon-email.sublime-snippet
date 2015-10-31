@@ -3,7 +3,7 @@
 <a class="item item-icon-left" href="${1:#}">
     <i class="icon ion-email"></i>
     ${2:Check mail}
-  </a>
+</a>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ion-list-icon-email</tabTrigger>

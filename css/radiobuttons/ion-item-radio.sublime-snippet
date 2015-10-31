@@ -10,7 +10,7 @@
     <i class="radio-icon ion-checkmark"></i>
   </label>
 
- </div>
+</div>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ion-item-radio</tabTrigger>

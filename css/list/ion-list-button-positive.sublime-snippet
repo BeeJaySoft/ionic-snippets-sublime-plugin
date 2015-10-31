@@ -5,7 +5,7 @@
     <button class="button button-positive">
       <i class="icon ion-ios7-telephone"></i>
     </button>
-  </div>
+</div>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ion-list-button-positive</tabTrigger>
