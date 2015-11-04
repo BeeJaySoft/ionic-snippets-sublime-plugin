@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
 <button class="button icon-left ion-home">${1:Home}</button>
-
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ion-button-home</tabTrigger>

@@ -3,7 +3,7 @@
 <ion-infinite-scroll
     on-infinite="${1:loadMore}()"
     distance="1%">
-  </ion-infinite-scroll>
+</ion-infinite-scroll>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ion-js-infinite-scroll</tabTrigger>

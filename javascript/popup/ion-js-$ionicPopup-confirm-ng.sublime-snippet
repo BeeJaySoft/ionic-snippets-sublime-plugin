@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
- ${1:// A confirm dialog}
+${1:// A confirm dialog}
  $scope.${2:showConfirm} = function() {
    var confirmPopup = $ionicPopup.confirm({
      title: '${3:Consume Ice Cream}',

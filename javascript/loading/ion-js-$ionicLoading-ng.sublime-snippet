@@ -12,7 +12,6 @@ angular.module('${1:LoadingApp}', ['ionic'])
   };
 });
 
-
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ion-js-$ionicLoading-ng</tabTrigger>

@@ -1,9 +1,10 @@
 <snippet>
 	<content><![CDATA[
- <label class="toggle">
+<label class="toggle">
    <input type="checkbox">
    <div class="track">
-     <div class="handle"></div>
+     <div class="handle">
+     </div>
    </div>
 </label>
 ]]></content>

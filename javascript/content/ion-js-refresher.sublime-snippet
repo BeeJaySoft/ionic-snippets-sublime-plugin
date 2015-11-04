@@ -3,7 +3,7 @@
 <ion-refresher
     pulling-text="${1:Pull to refresh...}"
     on-refresh="${2:doRefresh}()">
- </ion-refresher>
+</ion-refresher>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ion-js-refresher</tabTrigger>

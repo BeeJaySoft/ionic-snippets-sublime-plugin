@@ -11,8 +11,6 @@ app.controller('${3:App}Ctrl', function(\$scope, \$ionicLoading) {
   };
 });
 
-
-
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ion-js-$ionicLoadingConfig-ng</tabTrigger>

@@ -2,7 +2,6 @@
 	<content><![CDATA[
 <button on-swipe-down="${1:onSwipeDown}()" class="button">${2:Test}</button>
 
-
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ion-js-on-swipe-down</tabTrigger>

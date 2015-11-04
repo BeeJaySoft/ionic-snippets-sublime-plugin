@@ -4,7 +4,7 @@
     <i class="icon ion-person-stalker"></i>
     ${2:Friends}
     <span class="badge badge-assertive">${3:0}</span>
-  </a>
+</a>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ion-list-icon-person-stalker</tabTrigger>

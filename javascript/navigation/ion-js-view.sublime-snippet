@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 <ion-view>
-      <ion-content>${1:Hello!}</ion-content>
+	<ion-content>${1:Hello!}</ion-content>
 </ion-view>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

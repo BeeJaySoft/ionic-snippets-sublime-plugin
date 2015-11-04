@@ -3,7 +3,7 @@
 <a class="item item-icon-left item-icon-right" href="${1:#}">
     ${2:Call Ma}
     <i class="icon ion-ios7-telephone-outline"></i>
-  </a>
+</a>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>ion-list-icon-telephone</tabTrigger>
