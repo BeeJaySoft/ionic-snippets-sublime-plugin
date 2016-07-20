@@ -5,7 +5,7 @@ A sublime plugin complete with ionic framework snippets
 
 Feel free to let me know what else you want added via:
 
-- Twitter [@PixelDropINC](https://twitter.com/pixeldropinc)
+- Twitter [@mbaljeetsingh](https://twitter.com/mbaljeetsingh)
 - [Issues](https://github.com/PixelDropInc/ionic-snippets-sublime-plugin/issues)
 
 
